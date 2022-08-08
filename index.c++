@@ -12,17 +12,17 @@ int sum =0;
 
 int average=0;
 
-for( int i=1; i<=10000; i++)
+for( int d=1; d<=10000; d++)
 
 {
 
-if(i%2==0)
+if(d%2==0)
 
 {
 
 count_even_number= count_even_number+1;
 
-sum = sum+i;
+sum = sum+d;
 
 }
 
