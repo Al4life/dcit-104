@@ -3,18 +3,18 @@
 using namespace std;
 int main()
 { 
-    int i, j, sum = 0, count = 0;
+    int k, j, sum = 0, count = 0;
     loop1: 
-        for(i = 2; i <= 10; i++)
+        for(k = 2; k <= 10; k++)
         {
-            for(j = i - 1; j > 1; j--)
+            for(k = i - 1; j > 1; j--)
             {
-                if(i % j == 0)
+                if(k % j == 0)
                 {
                     goto loop1;
                 }
             }
-            sum = sum + i;
+            sum = sum + k;
             count++;
         }
         printf("The avg:%d", (sum / count));
